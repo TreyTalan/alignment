@@ -1,59 +1,93 @@
 body {
-    text-align: center;
-    line-height: 1.5;
-    font-size: 100%;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 100%;
+  width: 960px;
+  margin: 0 auto;
 }
 
 header,
 section {
-    width: 960px;
-    margin: 0 auto;
+  width: 960px;
+  background-color: #abd1d6;
+  margin-bottom: 15px;
 }
-
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+header {
+  padding: 20px 0;
+  margin-top: 15px;
+}
+footer {
+  margin-bottom: 15px;
+  background-color: #abd1d6;
+  display: flex;
+}
 h1 {
-    font-size: 48px;
-    margin: 24px 0;
+  font-size: 48px;
+  margin: 24px 0;
 }
 
 h2 {
-    font-size: 32px;
+  font-size: 32px;
+  width: 960px;
+  text-align: left;
+  padding: 40px 0 0 90px;
 }
 
 /* *********** form ************ */
+
 fieldset {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background-color: #8fb3b8;
+  width: 240px;
+  margin: auto;
 }
-legend {
-    padding: 50px 0 20px 0;
-}
+
 form {
-    margin: 48px;
+  margin: 0 0 40px 170px;
+}
+p {
+  width: 310px;
+  text-align: left;
+  margin: 50px 0 0 90px;
 }
 
 legend {
-    font-size: 24px;
+  font-size: 24px;
+  padding: 60px 0 0 0;
 }
 
 input {
-    padding: 5px;
-    margin-bottom: 15px;
+  padding: 5px;
+  margin-bottom: 15px;
 }
 fieldset .checkbox {
-    margin: 10px 0 0 0;
+  margin: 10px 0 0 0;
 }
 fieldset a {
-    margin: 10px 0 20px 0;
+  margin: 10px 0 20px 0;
 }
 
 button {
-    padding: 8px;
-    border-radius: 5px;
-    cursor: pointer;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 /* ************** footer *************** */
 footer li {
-    display: inline;
+  display: inline;
+}
+footer ul {
+  padding: 10px 0;
+}
+footer p {
+  margin: 20px 245px 10px 90px;
+  font-weight: bold;
 }
